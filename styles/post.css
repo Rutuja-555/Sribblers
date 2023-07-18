@@ -1,0 +1,94 @@
+/* post.css */
+
+/* Background color */
+body {
+    background-color: #ffeedd;
+  }
+  
+  /* Header styles (You can include header styles from index.css) */
+  
+  /* Post Content Styles */
+  .post-content {
+    margin: 20px;
+  }
+  
+  .post-title,
+  .post-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .editable {
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .editable.edit-mode {
+    border: 2px solid pink;
+  }
+  
+  .post-author {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .edit-save-button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .like-section {
+    margin-top: 10px;
+  }
+  
+  .like-button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .like-counter {
+    margin-top: 5px;
+    color: #888;
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .all-comments {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .comment {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
